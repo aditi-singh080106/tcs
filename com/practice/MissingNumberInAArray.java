@@ -13,7 +13,7 @@ public class MissingNumberInAArray {
             arr[i] = sc.nextInt();
             sum+=arr[i];
         }
-        System.out.println(sum/n);
+        System.out.println((((n+1)*n)/2)-sum);
         sc.close();
     }
 }
